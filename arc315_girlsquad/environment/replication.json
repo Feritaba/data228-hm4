@@ -1,0 +1,12 @@
+{  
+  "Role":"arn:aws:iam::552723235854:role/crrRole",
+  "Rules":[
+        {
+          "Prefix":"",
+          "Status": "Enabled",
+          "Destination": {
+            "Bucket": "arn:aws:s3:::ticket-service-ui-websitebucket-singapore-sna9qdg7lqas"
+          }
+        }
+      ]
+  }
